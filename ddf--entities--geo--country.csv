@@ -1,4 +1,4 @@
-geo,name,is.country,is.un_state,world_4region,latitude,longitude
+geo,name,is--country,is--un_state,world_4region,latitude,longitude
 abkh,Abkhazia,TRUE,FALSE,europe,,
 and,Andorra,TRUE,TRUE,europe,42.50779,1.52109
 afg,Afghanistan,TRUE,TRUE,asia,33,66
