@@ -1,0 +1,12 @@
+treemenu,is--base,is--health,is--wealth,is--property,is-income_distribution_and_equality
+population,TRUE,FALSE,FALSE,FALSE,FALSE
+gdp_const_ppp2011_dollar,FALSE,FALSE,TRUE,FALSE,FALSE
+gdp_p_cap_const_ppp2011_dollar,FALSE,FALSE,TRUE,FALSE,FALSE
+gini,FALSE,FALSE,FALSE,FALSE,TRUE
+life_expectancy,FALSE,TRUE,FALSE,FALSE,FALSE
+child_mortality_rate_percent,FALSE,TRUE,FALSE,FALSE,FALSE
+fertility_rate,FALSE,TRUE,FALSE,FALSE,FALSE
+child_mortality_rate_per1000,FALSE,TRUE,FALSE,FALSE,FALSE
+geo.name,FALSE,FALSE,FALSE,TRUE,FALSE
+geo.longitude,FALSE,FALSE,FALSE,TRUE,FALSE
+geo.latitude,FALSE,FALSE,FALSE,TRUE,FALSE
