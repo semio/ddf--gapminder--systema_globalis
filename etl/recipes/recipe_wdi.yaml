@@ -21,7 +21,8 @@ ingredients:
     # WDI
     - id: wdi-countries
       dataset: *d1
-      key: country
+      key:
+	  - country
       value: '*'
     - id: wdi-datapoints
       dataset: *d1
@@ -116,8 +117,8 @@ ingredients:
           - si_dst_05th_20
           - si_dst_frst_10
           - si_dst_frst_20
-	      - si_pov_rugp
-	      - si_pov_urgp
+	  - si_pov_rugp
+	  - si_pov_urgp
           - it_mlt_main_p2
           - ep_pmp_sgas_cd
           # - eg_use_comm_gd_pd_kd
