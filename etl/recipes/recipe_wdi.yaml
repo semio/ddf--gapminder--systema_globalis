@@ -21,8 +21,7 @@ ingredients:
     # WDI
     - id: wdi-countries
       dataset: *d1
-      key:
-	  - country
+      key: country
       value: '*'
     - id: wdi-datapoints
       dataset: *d1
