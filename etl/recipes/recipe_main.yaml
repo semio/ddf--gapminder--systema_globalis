@@ -18,6 +18,7 @@ include:
     - recipe_gw_pop.yaml
     - recipe_wdi.yaml
     - recipe_gw_gini.yaml
+    - recipe_ihme_edu_attainment.yml
     # - recipe_bp.yaml
     # - recipe_cdiac.yaml
     # - recipe_cme.yaml
@@ -59,6 +60,7 @@ cooking:
               - co2-datapoints-final
               - wdi-datapoints-final
               - gini-datapoints
+              - edu-datapoints-final
               # - bp-datapoints-final
               # - cdiac-datapoints-final
               # - cme-datapoints-final
@@ -97,5 +99,6 @@ cooking:
               - pop-concepts-final
               - co2-concepts-final
               - gini-concepts
+              - edu-concepts-final
           options:
               deep: true
