@@ -65,6 +65,17 @@ def remove_unneeded_dps():
     os.remove(os.path.join(out_dir, 'ddf--datapoints--sg_population--by--geo--time.csv'))
     os.remove(os.path.join(out_dir, 'ddf--datapoints--sg_gini--by--geo--time.csv'))
 
+    # edu-attainment
+    os.remove(
+        os.path.join(out_dir,
+                     'ddf--datapoints--mean_years_in_school_men_25_years_and_older--by--geo--time.csv'))
+    os.remove(
+        os.path.join(out_dir,
+                     'ddf--datapoints--mean_years_in_school_women_25_years_and_older--by--geo--time.csv'))
+    os.remove(
+        os.path.join(out_dir,
+                     'ddf--datapoints--mean_years_in_school_women_of_reproductive_age_15_to_44--by--geo--time.csv'))
+
 
 def apply_patches():
     # list of patches to apply to files.
@@ -76,7 +87,8 @@ def apply_patches():
             'ddf--concepts.2.csv',
             'ddf--concepts.3.csv',
             'ddf--concepts.4.csv',
-            'ddf--concepts.5.csv'
+            'ddf--concepts.5.csv',
+            'ddf--concepts.6.csv'
         ],
         'ddf--entities--tag.csv': [
             'ddf--entities--tag.0.csv'
