@@ -10,8 +10,6 @@ config:
     recipes_dir: ./
     # the path to search dictionary files
     dictionary_dir: ../translation_dictionaries
-    # the path to search ddf datasets
-    ddf_dir: /Users/semio/src/work/Gapminder
 
 include:
     - recipe_gw_common.yaml
@@ -156,7 +154,6 @@ cooking:
               [wdi-countries]
           options:
               column: short_name
-              # column: country
               target_column: geo
               dictionary:
                 base: gw-countries
@@ -165,7 +162,6 @@ cooking:
                       'arb1', 'arb2', 'arb3', 'arb4', 'arb5', 'arb6', 'name', 'iso3166_1_alpha2',
                       'iso3166_1_alpha3', 'iso3166_2'
                      ]
-                # key: country
                 value: country
           result: wdi-country-aligned
         - procedure: translate_column
@@ -286,14 +282,6 @@ cooking:
                   # - energy_use_total
                   # - internet_users_total_number
           result: wdi-datapoints-final
-    # concepts:
-    #     - procedure: merge
-    #       ingredients:
-    #           - gw-concepts-discrete
-    #           - gw-concepts-geo
-    #           - gw-concepts-wdi
-    #       options:
-    #           deep: true
     concepts:
         - procedure: translate_column
           ingredients:

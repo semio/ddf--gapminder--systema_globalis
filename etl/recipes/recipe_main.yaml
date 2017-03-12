@@ -19,24 +19,6 @@ include:
     - recipe_wdi.yaml
     - recipe_gw_gini.yaml
     - recipe_ihme_edu_attainment.yml
-    # - recipe_bp.yaml
-    # - recipe_cdiac.yaml
-    # - recipe_cme.yaml
-    # - recipe_fao_food.yaml
-    # - recipe_gapminder.yaml
-    # - recipe_ilo.yaml
-    # - recipe_imperial.yaml
-    # - recipe_oecd.yaml
-    # - recipe_cred.yaml
-    # - recipe_pwt.yaml
-    # - recipe_uis.yaml
-    # - recipe_unaids.yaml
-    # - recipe_unpop.yaml
-    # - recipe_transpint.yaml
-    # - recipe_imperial.yaml
-    # - recipe_fao.yaml
-    # - recipe_fao_aqua.yaml
-    # - recipe_dont_panic_poverty.yaml
 
 ingredients:
     - id: gw-concepts-all
@@ -61,25 +43,6 @@ cooking:
               - wdi-datapoints-final
               - gini-datapoints
               - edu-datapoints-final
-              # - bp-datapoints-final
-              # - cdiac-datapoints-final
-              # - cme-datapoints-final
-              # - cred-datapoints-final
-              # - fao_fore-datapoints-final
-              # - fao_aqua-datapoints-final
-              # - fao_food-datapoints-final
-              # - gw-sg-datapoints-final
-              # - ilo-datapoints-final
-              # - imperial-datapoints-final
-              # - oecd-datapoints-final
-              # - pwt-datapoints-final
-              # - transpint-datapoints-final
-              # - uis-datapoints-final
-              # - unaids-datapoints-final
-              # - unpop-datapoints-final
-              # - dont-panic-datapoints
-          # options:
-          #     deep: true
     entities:
         - procedure: identity
           ingredients:
